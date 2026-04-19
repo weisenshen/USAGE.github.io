@@ -67,10 +67,12 @@ Edit the CSS variables in `css/style.css`:
 Replace `images/logo.svg` with your own logo file (SVG, PNG, or JPG)
 
 #### Mailing List Form
-Update the form action URL in `index.html`:
+The mailing list button in `index.html` opens an email request to the site coordinator:
 ```html
-<form class="signup-form" action="YOUR_FORM_URL" method="get">
+<a href="mailto:Weisen.Shen@stonybrook.edu?subject=USAge%20Mailing%20List%20Signup">Join Mailing List</a>
 ```
+
+If you later create a Google Form, Mailchimp form, or other signup service, replace this link with that service's public signup URL.
 
 ## Technical Details
 
